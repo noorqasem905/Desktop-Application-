@@ -126,7 +126,7 @@ public class userInformation {
     }
 
     public static void main(String[] args) {
-        userInformation u = new userInformation("noorqasem41", "noorqasem41@gmail.com", "Nooraldeen", "Qasem", "Amman", "Jordan", "22-6-2004");
+        userInformation u = new userInformation("noorqasem", "*********@gmail.com", "Nooraldeen", "Qasem", "Amman", "Jordan", "**-*-****");
 
         u.setgivenDate(u.Birthday);
         System.out.println(u.getgivenDate().getDayOfWeek());
